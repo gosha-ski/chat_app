@@ -1,0 +1,33 @@
+{
+  "name": "first_chat_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "ts-node ./src/app.ts",
+    "server": "ts-node ./src/server.ts",
+    "auth_controller": "ts-node ./src/auth/auth_controller.ts",
+    "postgres_connection": "ts-node ./src/utils/postgres_connection.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.11.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/passport": "^1.0.16",
+    "@types/pg": "^8.11.0",
+    "@types/uniqid": "^5.3.4"
+  }
+}
